@@ -1,32 +1,101 @@
 
 body{
-    background-color: rgb(224, 98, 172);
-    font-style: italic;
+    background-color: rgb(241, 228, 236);
+    font-style:none;
+}
+h1{
+    background-color:black;
+    display: flex;
+    font-size: large;
+    
+}
+nav{
+
+    display: flex;
+    justify: content 230px;
+
+
 }
 
 
 
+nav ul{
+
+    display: flex;
+list-style-type: none;
+gap: 10%;
+}
+image{
+justify-content: right;
+}
+
+
+.tribe{
+    display: flex;
+    padding: auto;
+    justify-content: center;
+}
 
 .box{
-    background-color: rgb(200, 240, 234);
-    background-color: body;
-    border-color: rgb(183, 93, 224);
-    border: solid;
-    border-width: 1px;
-    margin-top: 6px;
-    margin-left: 15px;
-    margin-right: 4%;
-    margin-bottom: 6%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-right: 6%;
+  margin: 50px;
+  width: 200px;
+  height: auto;
+  margin: 50px;
+  padding: 4%;
+  background-color: rgb(145, 233, 228);
+  justify-self: auto;
+  font-size: 15px;
+
 }
 /* normal state */
 .button{
-    background-color: blueviolet;
+    font-size: large;
     color: darkgrey;
     padding: 10px 20px;
 }
-section{
-    background-color: brown;
+
+.fa-facebook{
+    font-size: 230%;
+}
+.fa-x-twitter {
+    font-size: 230%;
+}
+.fa-youtube{
+    font-size: 230%;
+}
+.button{
+    font-size: large;
+}
+
+/* adjust this value for more or less rounding */
+img{
+    border-radius: 250%;
+    
+
+
+}
+.mlab{
+    text-align: center;
+    font-size:xx-large;
+    color: red;
+}
+.activity{
+    color: black;
+    font-size: larger;
+    text-align: center;
+}
+
+
+
+.fa-html5{
+    font-size: 250%;
+}
+.fa-css3{
+    font-size: 250%;
+}
+.fa-square-js{
+    font-size: 250%;
+}
+.fa-react{
+    font-size: 250%;
 }
