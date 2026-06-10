@@ -1,98 +1,99 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otlotleng Sepamo | Portfolio</title>
+    <!-- FontAwesome Link for Icons -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <!-- Link to external CSS sheet -->
+    <link rel="stylesheet" href="stlye.css">
+    <script src="https://kit.fontawesome.com/6a518496c2.js" crossorigin="anonymous"></script>
+</head>
+<body> 
 
-    <head>
+    <!-- Header & Navigation -->
+    <header> 
+        <nav class="navbar"> 
+            <div class="logo"> 
+                <h1>OTLOTLENG</h1> 
+            </div> 
+            <ul class="nav-links"> 
+                <li><a href="#home">HOME</a></li> 
+                <li><a href="#about">ABOUT</a></li> 
+                <li><a href="#projects">PROJECTS</a></li> 
+                <li><a href="#contact">CONTACT</a></li> 
+                <li class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+            </ul> 
+        </nav> 
+    </header> 
+
+    <!-- Main Content Container -->
+    <main class="container">
         
-        <!--this line links the css file-->
-<link rel="stylesheet" href="stlye.css">
-         <script src="https://kit.fontawesome.com/6a518496c2.js" crossorigin="anonymous"></script>
+        <!-- Hero Section -->
+        <section class="hero" id="home"> 
+            <div class="hero-text">
+                <h2>Hi,</h2> 
+                <h2>my name is</h2> 
+                <h3 class="name">Otlotleng Sepamo</h3> 
+                <h2>I build things for the web</h2> 
+                <button class="btn-hire">Hire Me</button> 
+            </div>
+            <div class="hero-img"> 
+                <!-- Replace with your actual image path -->
+                <img src="./tlotli.png" alt="Otlotleng Profile Image"> 
+            </div>
+        </section> 
+
+        <!-- Tech Stack Section -->
+        <section class="tech-stack" id="about"> 
+            <p class="section-title">My Tech Stack</p> 
+            <p class="subtitle">Technologies I've been working with recently:</p> 
+            <div class="stack-icons">
+                <i class="fa-brands fa-html5" title="HTML5"></i> 
+                <i class="fa-brands fa-css3-alt" title="CSS3"></i> 
+                <i class="fa-brands fa-square-js" title="JavaScript"></i> 
+                <i class="fa-brands fa-react" title="React"></i> 
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects-section" id="projects"> 
+            <p class="section-title project-heading">Projects</p> 
+            <p class="subtitle">Things I've built so far:</p>
             
-        <body style="background-color: rgb(170, 107, 230);">
-        <header>
-           <nav>
-                <section class="logo">
-<h1 style="color: blueviolet;"> OTLOTLENG</h1>
-                </section>
+            <!-- Project Cards Grid -->
+            <div class="project-grid"> 
+                <div class="project-card"> 
+                    <div class="card-icon"><i class="fa-solid fa-globe"></i></div>
+                    <p>CSS (Cascading Style Sheets) is the language used to style and design the visual presentation of a website.</p> 
+                </div> 
 
-                <section>
-                <ul>
-                  <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">PROJECT</a></li>
-                    <li><a href="">CONTACT</a></li> 
-                
-<i class="fa-brands fa-facebook"></i>
-<i class="fa-brands fa-x-twitter"></i>
-<i class="fa-brands fa-youtube"></i>
-</ul>
-                </section>
-            </nav>
-        </header>
-      <section class="title">  
-        <h2>Hi</h2>
-        <h2>my name is</h2>
-        <h3 style="color: brown;"> Otlotleng sepamo</h2>
-        <h2>I build things for web</h2>
-      
-  </section>
-  <section class="img" >
- <div style="display: flex;justify-content: flex-end;"></di>
-        <img src="./tlotli.png" style="display: flex; place-items:right; align-items: center;gap: 10px;">   
+                <div class="project-card"> 
+                    <div class="card-icon"><i class="fa-solid fa-paperclip"></i></div>
+                    <p>Margin is the space outside an element's border, pushing elements away. Padding is the space inside the border, creating a internal cushion.</p> 
+                </div> 
 
-  </section>
+                <div class="project-card"> 
+                    <div class="card-icon"><i class="fa-solid fa-link"></i></div>
+                    <p>HTML (HyperText Markup Language) is the foundational standard markup language used to create and structure web page content.</p> 
+                </div> 
+            </div> 
+        </section> 
 
-
-
-        <section class="button">
-        <button style="background-color: rgb(63, 204, 27);">hire me</button>
-</section>
-
-<section class="mlab">
-        <p> my tech stack</p>
+        <!-- Message/Contact Area -->
+        <section class="contact-section" id="contact">
+            <label for="message">Leave a message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell me about your project..."></textarea>
         </section>
 
-        <section class="activity">
-        <p> technologies i've been working with recently</p>
-        <i class="fa-brands fa-html5"></i>
-        <i class="fa-brands fa-css3"></i>
-        <i class="fa-brands fa-square-js"></i>
-        <i class="fa-brands fa-react"></i>
+    </main>
 
-        <section class="Project">
-          <p style="color: red;">Projects</p>
-        </section>
-
-
-        <label for="message"></label>
-        <textare id="=message"name="message"rows="5" cols="50">things i've build so far</textare>
-
-
-        <section class="tribe">
-<section class="box">
-    <p>CSS (Cascading Style Sheets) is the language used to style and design the visual presentation of a website.</p>
-    <i class="fa-solid fa-globe"></i>
-</section>
-
-
-
-<section class="tribe">
-<section class="box">
-    <p>Margin is the space outside an element's border, pushing neighboring elements away. Padding is the space inside the border, creating a cushion between the element'</p>
-<i class="fa-solid fa-paperclip"></i>
-</section>
-
-
-<section class="tribe">
-<section class="box">
-    <p>HTML (HyperText Markup Language) is the foundational standard markup language used to create and structure the content of web pages</p>
-<i class="fa-solid fa-link"></i>
-</section>
-
-
-<section>
-
-    
-    </section>
-        </body>
-        
+</body> 
 </html>
